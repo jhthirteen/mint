@@ -156,7 +156,6 @@ const MintHome = () => {
             color: 'white',
             fontSize: '16px',
             fontFamily: '"Press Start 2P"',
-            border: 'none',
             borderRadius: '8px',
             cursor: 'pointer',
             border: '4px solid black',

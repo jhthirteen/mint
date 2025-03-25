@@ -1,5 +1,6 @@
 {
   "name": "mint-cat-app",
+  "productName": "Show Me Mint",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "electron": "electron ."
+    "electron": "electron .",
+    "package": "electron-builder"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +41,11 @@
     ]
   },
   "devDependencies": {
-    "electron": "^35.0.3"
+    "electron": "^35.0.3",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.ShowMeMint",
+    "extends": null
   }
 }
